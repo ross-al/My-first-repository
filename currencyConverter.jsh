@@ -1,4 +1,4 @@
-System.out.print("If I give you £1, how many Euro will you give me? ");
+System.out.print("If I give you £1, how many Euros will you give me? ");
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
@@ -21,7 +21,7 @@ while (!finished) {
 	  System.out.println("£" + pounds + " will give you " + euro + "€");
 	  break;
     case 2: 
-	  System.out.print("How many euro would you like to convert? ");
+	  System.out.print("How many euros would you like to convert? ");
 	  euro   = Double.parseDouble(System.console().readLine());
 	  pounds = euro * poundOverEuroRatio;
 	  System.out.println(euro + "€ will give you £" + pounds);
