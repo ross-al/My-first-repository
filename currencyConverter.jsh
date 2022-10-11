@@ -1,5 +1,6 @@
 
 System.out.print("Adding text for first commit. ");
+System.out.print("Testing a git push to collaborative repo ");
 
 System.out.print("If I give you £1, how many Euros will you give me? ");
 
