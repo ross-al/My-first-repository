@@ -1,4 +1,8 @@
+
+System.out.print("Adding text for first commit. ");
+
 System.out.print("If I give you £1, how many Euros will you give me? ");
+
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
