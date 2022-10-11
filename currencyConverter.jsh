@@ -33,5 +33,5 @@ while (!finished) {
 	  System.out.println("Sorry, but that is not a valid option. Please try again");
     }	  
 }
-System.out.println("Exiting the program. Thanks a lot!");
+System.out.println("Exiting the program");
 
