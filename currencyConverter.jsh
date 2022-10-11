@@ -1,8 +1,13 @@
-System.out.print("If I give you £1, how many Euro will you give me? ");
+
+System.out.print("Adding text for first commit. ");
+System.out.print("Testing a git push to collaborative repo ");
+
+System.out.print("If I give you £1, how many Euros will you give me? ");
+
 double euroOverPoundRatio = Double.parseDouble(System.console().readLine());
 System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
 double poundOverEuroRatio = Double.parseDouble(System.console().readLine());
-System.out.println("OK, now I know enough.");
+System.out.println("OK");
 boolean finished = false;
 while (!finished) {
     System.out.println();
@@ -21,7 +26,7 @@ while (!finished) {
 	  System.out.println("£" + pounds + " will give you " + euro + "€");
 	  break;
     case 2: 
-	  System.out.print("How many euro would you like to convert? ");
+	  System.out.print("How many euros would you like to convert? ");
 	  euro   = Double.parseDouble(System.console().readLine());
 	  pounds = euro * poundOverEuroRatio;
 	  System.out.println(euro + "€ will give you £" + pounds);
